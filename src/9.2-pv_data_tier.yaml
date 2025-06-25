@@ -23,7 +23,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   awsElasticBlockStore: 
-    volumeID: INSERT_VOLUME_ID # replace with actual ID
+    volumeID:  vol-031d7fa159c3489b6 # replace with actual ID
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
